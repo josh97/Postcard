@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA12DC3B19D5D42D009A7EF0 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA12DC3A19D5D42D009A7EF0 /* AlbertEinsteinStamp.jpg */; };
 		EA45D04A19D332C900D295EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45D04919D332C900D295EE /* AppDelegate.swift */; };
 		EA45D04C19D332C900D295EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45D04B19D332C900D295EE /* ViewController.swift */; };
 		EA45D04F19D332C900D295EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA45D04D19D332C900D295EE /* Main.storyboard */; };
 		EA45D05119D332C900D295EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA45D05019D332C900D295EE /* Images.xcassets */; };
 		EA45D05419D332C900D295EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA45D05219D332C900D295EE /* LaunchScreen.xib */; };
 		EA45D06019D332C900D295EE /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA45D05F19D332C900D295EE /* PostcardTests.swift */; };
+		EA45D06C19D3371900D295EE /* 8116428434_a1a7f68d9d_z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA45D06B19D3371900D295EE /* 8116428434_a1a7f68d9d_z.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA12DC3A19D5D42D009A7EF0 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 		EA45D04419D332C900D295EE /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA45D04819D332C900D295EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA45D04919D332C900D295EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		EA45D05919D332C900D295EE /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA45D05E19D332C900D295EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA45D05F19D332C900D295EE /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		EA45D06B19D3371900D295EE /* 8116428434_a1a7f68d9d_z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8116428434_a1a7f68d9d_z.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +94,9 @@
 		EA45D04719D332C900D295EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA45D06B19D3371900D295EE /* 8116428434_a1a7f68d9d_z.jpg */,
 				EA45D04819D332C900D295EE /* Info.plist */,
+				EA12DC3A19D5D42D009A7EF0 /* AlbertEinsteinStamp.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,6 +200,8 @@
 			files = (
 				EA45D04F19D332C900D295EE /* Main.storyboard in Resources */,
 				EA45D05419D332C900D295EE /* LaunchScreen.xib in Resources */,
+				EA12DC3B19D5D42D009A7EF0 /* AlbertEinsteinStamp.jpg in Resources */,
+				EA45D06C19D3371900D295EE /* 8116428434_a1a7f68d9d_z.jpg in Resources */,
 				EA45D05119D332C900D295EE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				EA45D06519D332C900D295EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA45D06619D332C900D295EE /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				EA45D06819D332C900D295EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
